@@ -11,8 +11,8 @@ import uuid
 import string
 import random
 
-AWS_ACCESS_KEY_ID = 'AKIA5WJN5H4WJH4HUJGA'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 s3 = boto3.resource('s3',
                     aws_access_key_id=AWS_ACCESS_KEY_ID,
